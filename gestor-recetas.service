@@ -1,0 +1,12 @@
+[Unit]
+Description="Gestor Recetas Application"
+
+[Service]
+WorkingDirectory=/opt/gestor-recetas
+ExecStart=/opt/gestor-recetas/start.sh
+ExecStop=/bin/kill -TERM $MAINPID
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

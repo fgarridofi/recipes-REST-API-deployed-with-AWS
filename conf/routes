@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /recetas                           controllers.HomeController.listRecetas(req: Request)
+POST    /receta                            controllers.HomeController.createReceta(request: Request)
+GET     /receta/:recetaId                  controllers.HomeController.getReceta(req: Request , recetaId: Long)
+GET     /receta/nombre/:name               controllers.HomeController.getRecetaByName(req: Request , name: String)
+PUT     /receta/:recetaId                  controllers.HomeController.updateReceta(req: Request ,recetaId: Long)
+DELETE  /receta/:recetaId                  controllers.HomeController.deleteReceta(req: Request ,recetaId: Long)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

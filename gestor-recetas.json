@@ -1,0 +1,50 @@
+{
+    "variables": {
+      "aws_access_key": "",
+      "aws_secret_key": ""
+    },
+    "builders": [
+      {
+        "type": "amazon-ebs",
+        "access_key": "{{user `aws_access_key`}}",
+        "secret_key": "{{user `aws_secret_key`}}",
+        "region": "eu-west-3",
+        "source_ami": "ami-0c03e02984f6a0b41",
+        "instance_type": "t3.micro",
+        "ssh_username": "ubuntu",
+        "ami_name": "gestor-recetas {{timestamp}}"
+      }
+    ],
+    "provisioners": [
+    {
+      "type": "file",
+      "source": "gestor-recetas.service",
+      "destination": "/home/ubuntu/"
+    },
+    {
+        "type": "file",
+        "source": "./target/universal/gestor-recetas-1.0-SNAPSHOT.zip",
+        "destination": "/home/ubuntu/"
+    },
+    {
+        "type": "file",
+        "source": "start.sh",
+        "destination": "/home/ubuntu/"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "sleep 30",
+        "sudo apt-get update",
+        "sudo apt install -y default-jdk",
+        "sudo mkdir /opt/gestor-recetas",
+        "sudo cp /home/ubuntu/gestor-recetas-1.0-SNAPSHOT.zip /opt/gestor-recetas",
+        "sudo cp /home/ubuntu/start.sh /opt/gestor-recetas",
+        "sudo chmod +x /opt/gestor-recetas/start.sh",
+        "sudo cp /home/ubuntu/gestor-recetas.service /etc/systemd/system",
+        "sudo systemctl daemon-reload",
+        "sudo systemctl enable gestor-recetas.service"
+      ]
+    }
+  ]
+}

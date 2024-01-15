@@ -1,0 +1,7 @@
+recipe-not-found= Recipe not found
+name-required = The name is required
+recipe-deleted-success=Recipe deleted successfully
+recipe-not-deleted=Recipe not deleted
+recipe-modified-success = Recipe modified successfully
+recipe-generated-success = Recipe generated successfully
+invalid-difficulty = The difficulty must be an integer between 0 and 5

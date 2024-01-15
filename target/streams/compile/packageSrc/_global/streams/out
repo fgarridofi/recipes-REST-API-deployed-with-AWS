@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/target/scala-2.13/gestor-recetas_2.13-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/messages[0m
+[0m[[0m[0mdebug[0m] [0m[0m	messages.es[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/messages.es[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/conf/evolutions/default/1.sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/VideoRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/models/VideoRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/RecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/models/RecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/PasosRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/models/PasosRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/CategoriaRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/models/CategoriaRecetaModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	validators/DificultadValidator.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/validators/DificultadValidator.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/RecetaResource.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/administrador/Desktop/UPSA/MIMO/CLOUD COMPUTING/CLOUD/Presentaciones-20231222/gestor-recetas/app/views/RecetaResource.java[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

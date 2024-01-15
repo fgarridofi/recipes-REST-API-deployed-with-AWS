@@ -1,0 +1,17 @@
+@(res: views.RecetaResource)
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<receta>
+    <id>@res.getId</id>
+    <name>@res.getName</name>
+    <time>@res.getTime</time>
+    <dificultad>@res.getDificultad</dificultad>
+    <videoURL>@res.getVideoURL</videoURL>
+    <pasosList>
+        @res.getPasosList().mkString(", ")
+    </pasosList>
+    <categoriaNames>
+        @res.getCategoriaNames().mkString(", ")
+    </categoriaNames>
+
+</receta>
